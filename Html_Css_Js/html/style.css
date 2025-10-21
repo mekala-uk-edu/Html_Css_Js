@@ -1,0 +1,13 @@
+.block{
+    background-color: blue;
+    color: white;
+    margin:20px auto;
+    width: 200px;
+}
+
+.inline{
+    background-color: orangered;
+    color: white;
+    display: block;
+    border: 1px solid yellowgreen;
+}
