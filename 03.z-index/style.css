@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    border: 5px solid red;
+    height: 80vh;
+    width: 80vw;
+    padding: 5px;
+    position: relative;
+}
+img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.one{
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.two{
+    top: 10%;
+    left: 10%;
+    z-index: 2;
+}
+.three{
+    top: 20%;
+    left: 20%;
+    z-index: 1;
+}
